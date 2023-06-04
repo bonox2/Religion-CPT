@@ -796,10 +796,13 @@ form > button:hover {
   }
   .nav {
     display: block;
-    line-height: 2.2;
+    line-height: 1.2;
   }
   .nav > li + li {
     margin-left: 0;
+  }
+  .hero-title{
+    margin-top: 80px;
   }
   .about-text > p{
     margin-right: 25px;
@@ -869,7 +872,7 @@ form > button:hover {
     margin: 15px 0;
   }
   .hero-title{
-    margin-top: 60px;
+    margin-top: 180px;
     font-size: 34px;
   }
   .hero{
@@ -885,6 +888,11 @@ form > button:hover {
   .about-text{
     width: auto;
     margin-bottom: 30px;
+  }
+  .video > iframe ,
+  .video > picture{
+    max-width: 310px;
+    height: 200px;
   }
   .technology{
     padding:40px 0 0 0;
@@ -923,7 +931,7 @@ form > button:hover {
     margin: 15px 0;
   }
   .hero-title{
-    margin-top: 60px;
+    margin-top: 150px;
     font-size: 34px;
   }
   .hero{
